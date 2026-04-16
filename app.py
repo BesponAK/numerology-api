@@ -70,14 +70,3 @@ def reading():
 
 if __name__ == "__main__":
     app.run()
-    birthdate = data["birthdate"]
-    
-    lp = life_path_number(birthdate)
-
-    return jsonify({
-        "name": name,
-        "life_path": lp
-    })
-
-if __name__ == "__main__":
-    app.run()
